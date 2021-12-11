@@ -1,0 +1,240 @@
+#homepage .image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#homepage .image img {
+	width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+	#homepage .mobileImg {
+		display: none;
+	}
+
+	#homepage .webImg {
+		display: inline;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+	#homepage .mobileImg {
+		display: inline;
+	}
+
+	#homepage .webImg {
+		display: none;
+	}
+} 
+
+/* About text */
+#homepage .containerImg {
+	width: 60%;
+	margin: 30px auto 40px auto;
+}
+
+#homepage .containerImg .longtext{
+	padding-top: 5px;
+}
+
+#homepage .row_about {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+#homepage .btnContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#homepage .btn {/* #5c97df #28465c #427396 #077B88 #1167b1*/
+    background-color: #4ca4ee;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+}
+
+#homepage .btn:hover {/* #5c97df #28465c #427396 #077B88 #1167b1*/
+    background-color: #3f85be;
+}
+
+/* Services cards */
+#homepage a {
+	color: inherit;
+	text-decoration: none; /* no underline */
+	z-index: 1;
+  }
+
+#homepage .service-box {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+
+
+#homepage .container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+
+#homepage .container .card {
+	position: relative;
+	height: 250px;
+	display: flex;
+}
+
+#homepage .container .card .imgBx {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	/*transition: 2s ease-in-out;*/
+	/*transition: 2s ease-in;*/
+}
+
+#homepage .content {
+	background: rgba(52, 58, 64, 0.034);
+}
+
+@media screen and (min-width: 769px) {
+
+	/*#homepage .container .card:hover .imgBx img {
+		transform: scale(0.3);
+	}
+
+	#homepage .container .card:hover .imgBx{
+		width: 30%;
+	}*/
+
+	#homepage .container .card .content {
+		right: 0;
+		height: 100%;
+		padding: 20px 20px 20px 0px;
+		padding-left: 35%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(52, 58, 64, 0.034);
+		/*background: rgba(149, 200, 216, 0.11);*/	
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	#homepage .service-box {
+		width: 80%;
+	}
+
+	#homepage .container {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	#fstContainer {
+		margin-top: 60px !important;
+	}
+
+
+	#homepage .container .card {
+		flex-direction: column;
+		height: auto;
+		margin: 15px 0px;
+	}
+	
+	#homepage .container .card .content {
+		padding: 20px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	#homepage .container .card .imgBx {
+		position: relative;
+		height: 42%;
+		max-height: 200px;
+		transition: none;
+	}
+
+	#homepage .container .card .imgBx img{
+		width: 100%;
+	}
+  }
+
+
+  @media screen and (max-width: 594px) {
+	.service-box {
+		width: 80%;
+	}
+
+	#homepage .containerImg{
+		width: 80%;
+	}
+
+	#homepage .container .card .imgBx {
+		position: relative;
+		height: 100%;
+		max-height: 150px;
+		transition: none;
+	}
+
+	
+  }
+
+
+/* Call to action */
+.calltoaction {
+	background-color: #eee;
+    border: 1px solid #dcdcdc;
+    margin-bottom: -82px;
+}
+
+.btn-call-to-action {
+	border-radius: 40px;
+    background-color: rgb(52, 58, 64);
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn-call-to-action span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.btn-call-to-action:hover span {
+    padding-left: 15px;
+  }
+  
+.btn-call-to-action:hover span:after {
+    opacity: 1;
+    right: 0;
+}

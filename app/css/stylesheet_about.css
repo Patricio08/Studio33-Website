@@ -1,0 +1,18 @@
+.container-about {
+    margin-top: 40px !important;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.title-about-role {
+    margin-bottom: -20px;
+}
+
+.image-about-ceo {
+    border-radius: 10px;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+}

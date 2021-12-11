@@ -1,0 +1,42 @@
+ <!-- Login form -->
+<div class="card">
+    <article class="card-body mx-auto" style="max-width: 400px;">
+        <h2 class="card-title mt-3 text-center">Sign in</h2>
+        <p class="text-center">Sign in into your account</p>
+
+        <div class="text-center alert-warning alert" id="log-error">
+            <div class="my-auto">
+                <i class="fas fa-exclamation-triangle" style="font-size: 25px"></i>
+            </div>
+            <div style="padding-left: 20px; padding-top: 2px;">
+                <span id="err-text"></span>
+            </div>
+        </div>
+
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+            </div>
+            <input id="login-email" class="form-control" placeholder="Email" type="text">
+        </div> 
+        <div class="form-group input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+            </div>
+            <input id="login-password" class="form-control" placeholder="Password" type="password">
+        </div>               
+        <div class="checkbox mb-2">
+            <label>
+            <input id="log-checkbox" type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>                    
+        <div class="form-group">
+            <button id="login-loginBtn" class="btn btn-primary btn-block"> Sign in  </button>
+        </div> <!-- form-group// -->      
+        <p> <a class="no_class" id="login-resetPwd" style="cursor: pointer;">Forgot password?</a> </p>  
+        <hr>
+        <p class="text-center text-muted">No account? <a class="HashChange" id="navbar-signup" style="cursor: pointer;">Register here!</a> </p>       
+        <p class="mt-5 mb-3 text-center text-muted">© 2020-2021</p>                                                         
+    </form>
+    </article>
+</div>

@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "sky-estudio33"
+  },
+  "targets": {
+    "sky-estudio33": {
+      "hosting": {
+        "studio33": [
+          "sky-studio33"
+        ],
+        "estudio33": [
+          "sky-estudio33"
+        ]
+      }
+    }
+  }
+}

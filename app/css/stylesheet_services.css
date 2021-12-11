@@ -1,0 +1,97 @@
+.container-1, .container-2 {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .container-1 {
+    background-color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container-1, .container-2 {
+        width: 95%;
+        margin: 0 auto;
+      }
+    } 
+
+  .container-1 {
+    box-shadow: 0 3px 7px 0px rgb(0 0 0 / 30%);
+    padding: 25px 15px;
+  }
+  
+  .projects-content .title {
+    padding: 30px 0px 15px;
+    margin: 16px 0px 12px;
+  }
+  
+  .projects-content .divisao{margin: 2em 0; line-height: 0; text-align: center;}
+  .projects-content .divisao:before{ content: " "; display: block; border-top: 1px solid #e3e3e3; border-bottom: 1px solid #f7f7f7;}
+  
+  .project-theme-detail {
+    background: #eee6;
+    border: 1px solid #eee;
+  }
+  
+  .project-theme-detail p, .project-theme-detail-1 p {
+    margin-bottom: 2px;
+  }
+  
+  .project-theme-detail, .project-theme-detail-1 {
+    padding: 15px 0px;
+  }
+  
+  #services .project-title {
+    font-family: 'Noto Sans JP';
+    margin-left: 26px;
+    margin-bottom: 16px;
+  }
+  
+  
+    .contain-flex {
+      display: flex;
+    }
+  
+    .horizontal-bar, .horizontal-bar-1, .horizontal-bar-2, .horizontal-bar-3 {
+      /* #5c97df #28465c #427396 #077B88 #1167b1*/
+      margin: -4px 25px 20px 0px;
+      box-shadow: 5px 10px 1px;
+    }
+  
+    .horizontal-bar {
+      border: 6px solid #2596be; 
+    }
+  
+    .horizontal-bar-1 {
+      border: 6px solid #427396; 
+    }
+    
+    .horizontal-bar-2 {
+      border: 6px solid #077b88; 
+    }
+    
+    .horizontal-bar-3 {
+      border: 6px solid #0a9dad; /*#76b5c5 #105691*/
+    }
+
+    #services .description {
+        margin-bottom: 10px;
+    }
+
+    #services .container-btn {
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .btn-producao, .btn-master, .btn-podcast, .btn-aulas {
+        width: 25%;
+        background-color: #343A40;
+        border-color: #343A40;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .btn-producao:hover, .btn-master:hover, .btn-podcast:hover, .btn-aulas:hover {
+      background-color: #4d555e;
+      border-color: #4d555e;
+  }

@@ -1,0 +1,29 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+@media screen and (min-width: 769px) {
+	#main-content{
+        margin-bottom: 164px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+	#main-content{
+        padding-bottom: 132px;
+    }
+    
+  }
+
+p { 
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nunito';
+}

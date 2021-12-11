@@ -1,0 +1,58 @@
+/*Navigation bar*/
+#logo-sky{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.navbar{
+	background-color: rgb(52, 58, 64) !important;
+	min-height: 70px !important;
+}
+.navbar-brand{ 
+	/*font-size: 20px;*/
+	color: white !important;
+}
+
+.navbar-nav a{ 
+	margin: 0 auto;
+	color: #fcfcfc !important;
+	size: 20px;
+}
+.navbar-nav > li > a:hover{ 
+	border-bottom: 1px solid #fcfcfc !important; 
+}
+
+@media screen and (min-width: 992px) {
+	.navbar-collapse {
+		margin-left: -174px;
+	}
+  }
+
+
+.dropdown-menu{
+	background-color: rgb(52, 58, 64) !important;
+	color: #fcfcfc !important;
+}
+.dropdown-item{ 
+	color: #fcfcfc !important;
+}
+.dropdown-item:hover{
+	background-color: #202020a1 !important;
+}
+
+/*Customize login in nav*/
+
+.login .signup a{
+	color: #fcfcfc !important;
+	border-bottom: 1px solid rgb(52, 58, 64);
+}
+.login .login a{
+	color: #fcfcfc !important;
+	border-bottom: 1px solid rgb(52, 58, 64);
+}
+.login .signup a:hover{
+	border-bottom: 1px solid #fcfcfc !important;
+}
+.login .login a:hover{
+	border-bottom: 1px solid #fcfcfc !important;
+}

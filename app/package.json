@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "build": "rm -rf ../public/* & webpack",
+    "watch": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "css-loader": "^4.2.0",
+    "file-loader": "^6.0.0",
+    "handlebars": "^4.7.6",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

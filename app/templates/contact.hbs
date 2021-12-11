@@ -1,0 +1,76 @@
+<section id="contact-section">
+    <!--Section heading-->
+    <h2 class="title mt-3 text-center">Contacto</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto col-md-6" style="margin-bottom: 0px;">Tens alguma questão? Não hesites em contactar-nos diretamente e marca a tua reunião! 
+        A nossa equipa irá reponder-lhe num espaço de horas para ajuda-lo.</p>
+    <div class="menu">
+        <div class="container col-md-6 form-top">
+            <div class="row">
+                <div class="panel">
+                    <div class="panel-body">
+                        <form id="reused_form" method="post" action="" role="form">
+                            <p class="text-divider"></p>
+                             <!-- -->
+                            <div class="text-center alert-warning alert" id="contact-error">
+                                <div class="my-auto">
+                                    <i class="fas fa-exclamation-triangle" style="font-size: 25px"></i>
+                                </div>
+                                <div style="padding-left: 20px; padding-top: 2px;">
+                                    <span>Todos os campos devem ser preenchidos.</span>
+                                </div>
+                            </div>
+                            <!-- --> 
+                            <div class="contact-box col-md-12">                                                                        
+                                <div>                                   
+                                    <div class="form-group">
+                                        <label><i class="fa fa-user" aria-hidden="true"></i> Nome</label>
+                                        <input id="input-name" type="text" name="name" class="form-control" placeholder="Nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                        <input id="input-email" type="email" name="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fas fa-record-vinyl" aria-hidden="true"></i> Serviço</label>
+                                        <select class="form-control" id="contacts-select-options">
+                                            <option value="geral">Geral</option>
+                                            <option value="podcast">Podcast</option>
+                                            <option value="producao">Produção</option>
+                                            <option value="mistura">Mistura/ Masterização</option>
+                                            <option value="aulas">Aulas de música</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contain-info">
+                                <div class="info-contact text-center">
+                                    <h4 class="info-title mb-4">Informação</h4>
+                                    <div id="info-text">
+                                        <p>Antes de entrares em contacto connosco, tem em atenção os seguintes pontos:</p>
+                                        <p>Para nos contactares com questões gerais podes o fazer aqui, se queres aderir a um serviço, 
+                                            encontra mais informações nos botões abaixo.</p>           
+                                    </div>   
+                                </div>
+                            </div>  
+                            <div style="padding: 0px 15px;">
+                                <div class="form-group">                                   
+                                    <label><i class="fa fa-comment" aria-hidden="true"></i> Mensagem</label>
+                                    <textarea id="input-message" rows="6" name="message" class="form-control" placeholder="Introduz a mensagem"></textarea>
+                                    
+                                </div>
+                            </div>
+                        </form>
+                        <div style="padding: 0px 15px;">
+                            <button id="btn-submit" class="btn btn-raised btn-block btn-dark">Post →</button>
+                        </div>
+                        <div class="text-center mt-4" id="success-contact" style="display: none;">
+                                <p id="success-contact-text"></p>
+                            </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</section>

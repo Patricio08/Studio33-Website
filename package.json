@@ -1,0 +1,20 @@
+{
+  "name": "projectv4",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon cota-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "firebase": "^7.20.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}

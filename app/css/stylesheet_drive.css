@@ -1,0 +1,68 @@
+.drive-content {
+    width: 60%; 
+    margin: 0 auto
+}
+
+.drive-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.drive-subinfo {
+    background-color: rgb(248, 249, 250);
+    border-radius: 8px;
+    padding: 20px 20px 0px 30px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .drive-info {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 492px) {
+    .drive-content {
+        width: 75%;
+    }
+}
+
+#authorize_btn {
+    margin: auto;
+    width: 60%;
+    background-color: #077B88;
+    border-color: #077B88;
+    color: white;
+    border-radius: 5px;
+}
+
+#signout_btn {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: #28465c;
+    border-color: #28465c;
+    color: white;
+    border-radius: 5px;
+}
+
+#signout_btn:hover {
+    background-color: #427396;
+    border-color: #427396;
+}
+
+#drive_btn {
+    margin: auto;
+    width: 60%;
+    background-color: #077B88;
+    border-color: #077B88;
+    color: white;
+    border-radius: 5px;
+}
+
+#drive_btn:hover {
+    background-color: #0a9dad;
+    border-color: #0a9dad;
+}

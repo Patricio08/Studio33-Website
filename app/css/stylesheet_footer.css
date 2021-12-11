@@ -1,0 +1,26 @@
+/* Footer */
+
+footer {
+    background: rgb(52, 58, 64);
+    padding: 15px 0px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer .row {
+    margin: 0px !important;
+}
+.foot {
+    padding-top: 10px;
+}
+footer .socialmedia {
+    padding-top: 5px;
+	font-size: 25px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+footer .socialmedia i{
+    margin: 1px;
+	color: white;
+}
